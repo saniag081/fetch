@@ -14,8 +14,6 @@ function rest() {
 
 function tabla(datos) {
 
-    box.innerHTML = ''
-
     for(let valor of datos){
 
         box.innerHTML += `
